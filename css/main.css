@@ -229,6 +229,10 @@ body{background: #495057;}
 /*__SMALL DEVICES - TABLETS__*/
 @media screen and (min-width: 768px){
 
+    #items-wrapper{
+        width: 60%;
+    }
+
     .text-title{
         font-size: 2.3em;   
     }

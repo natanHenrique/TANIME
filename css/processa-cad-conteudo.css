@@ -42,7 +42,7 @@ body{background-color: #f5f5f5;}
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.resultado-cadastro i{
+.i{
     font-size: 180px;
     color: #8f8e8e;
     margin-bottom: 20px;
@@ -67,7 +67,7 @@ body{background-color: #f5f5f5;}
     justify-content: space-around;
 }
 
-.btn-home-new button{
+.btn{
     width: 110px;
     height: 35px;
     font-size: 15px;
@@ -77,11 +77,11 @@ body{background-color: #f5f5f5;}
     background-color: #8f8e8e;
 }
 
-.btn-home-new a{
+.a{
     color: #F8F8F8;
 }
 
-.btn-tentar-novamente button{
+.btn{
     width: 160px;
     height: 35px;
     border: none;
@@ -94,7 +94,7 @@ body{background-color: #f5f5f5;}
     background-color: #8f8e8e;
 }
 
-.btn-tentar-novamente a{
+.a{
     color: #F8F8F8;
 }
 
@@ -103,7 +103,7 @@ body{background-color: #f5f5f5;}
 
 /*__SMALL DEVICES - SMARTPHONES__*/
 @media screen and (min-width: 320px){
-    .resultado-cadastro i{
+    .i{
         font-size: 50px;
         
     }
@@ -128,7 +128,7 @@ body{background-color: #f5f5f5;}
 /*__SMALL DEVICES - SMARTPHONES__*/
 @media screen and (min-width: 480px){
 
-    .resultado-cadastro i{
+    .i{
         font-size: 100px;
         
     }
@@ -152,7 +152,7 @@ body{background-color: #f5f5f5;}
 /*__MEDIUM DEVICES - TABLETS & DESKTOPS__*/
 @media screen and (min-width: 960px){
 
-    .resultado-cadastro i{
+    .i{
         font-size: 160px;
         
     }

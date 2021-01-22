@@ -43,15 +43,15 @@ $cadastrarConteudo = mysqli_query($conexao, $comando);
                 if ($cadastrarConteudo){
             ?>
                 <div class="resultado-cadastro">
-                        <i class="fa fa-check-circle"></i>
+                        <i class="i" class="fa fa-check-circle"></i>
                         <p class="resultado">Conteudo Cadastrado com Sucesso!</p>
                         <p class="info-home-new">Volte para a pagina principal ou cadastre um novo conteudo.</p>
                         <div class="btn-home-new">
-                            <button>
-                                <a href="?p=main">Inicio</a>
+                            <button class="btn">
+                                <a class="a" href="?p=main">Inicio</a>
                             </button>
-                            <button>
-                                <a href="?p=cad-An-Mg">+Conteudo</a>
+                            <button class="btn">
+                                <a class="a" href="?p=cad-An-Mg">+Conteudo</a>
                             </button>
                         </div>
                     </div>
@@ -59,15 +59,15 @@ $cadastrarConteudo = mysqli_query($conexao, $comando);
                 }else{
             ?>
                     <div class="resultado-cadastro">
-                        <i class="fa fa-times-circle"></i>
+                        <i class="i" class="fa fa-times-circle"></i>
                         <p class="resultado">Não foi possível cadastrar o Conteudo!</p>
                         <p class="info-home-new">Verifique as informações e tente novamente.</p>
                         <div class="btn-home-new">
-                            <button>
-                                <a href="?p=main">Inicio</a>
+                            <button class="btn">
+                                <a class="a" href="?p=main">Inicio</a>
                             </button>
-                            <button>
-                                <a href="?p=cad-An-Mg">Cadastrar</a>
+                            <button class="btn">
+                                <a class="a" href="?p=cad-An-Mg">Cadastrar</a>
                             </button>
                         </div>
                     </div>

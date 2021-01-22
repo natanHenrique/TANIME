@@ -194,6 +194,9 @@ body{background: #495057;}
 
 /*__MEDIUM DEVICES - TABLETS & DESKTOPS__*/
 @media screen and (min-width: 960px){
+    .conteudo{
+        width: 80%;
+    }
     .resultado-cadastro i{
         font-size: 160px;
         
