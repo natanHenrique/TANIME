@@ -1,0 +1,119 @@
+/*
+Estilos de cor do site.
+
+Fundo do site background:   #495057 .
+
+cor das letras para textos:     #FFFFFF.
+
+cor das letras do título:  #CED4DA.
+
+cor para os fundos das caixas onde os conteúdos irão estar: #343A40.
+
+cor do fundo das caixas dos conteúdos:  #6C757D e ícones. 
+
+para os fundos dos botões e da caixa dos conteúdos na vitrine: #F2F2F2.
+
+para a cor dos textos nos botões será:   #898989.
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{background-color: #f5f5f5;}
+
+
+
+.containerCA{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cadConteudo{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    flex-direction: column;    
+    justify-content: center;
+    box-shadow: 10px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Boxlbl{
+    width: 100%;
+    display: flex;
+    font-size: 0.5em;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.Boxlbl::placeholder {
+    color: #f5f5f5ab;
+}
+
+textarea{
+    font-size: 0.5em;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #f5f5f5ab;
+    background-color: #495057;
+}
+
+textarea::placeholder {
+    font-size: 0.5em;
+    color: #f5f5f58f;   
+    padding-left: 10px;
+}
+
+.Boxlbl option{
+    font-size: 10px;
+}
+
+.BoxBtn{
+    font-size: 10px;
+    color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #495057;
+}
+
+/*______XX______MOBILE FIRST______XX______*/
+
+/*__SMALL DEVICES - SMARTPHONES__*/
+@media screen and (min-width: 480px){
+    .Boxlbl{
+        font-size: 0.9em;
+        padding: 5px 0px;
+        padding-left: 10px;
+    }
+    textarea{
+        font-size: 0.9em;
+    }
+    textarea::placeholder {
+        
+        font-size: 0.9em;
+    }
+
+    .BoxBtn{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .Boxlbl option{
+        font-size: 15px;
+    }
+
+}

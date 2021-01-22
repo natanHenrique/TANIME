@@ -1,0 +1,55 @@
+
+
+/*______XX______RESET______XX______*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+ul {list-style: none;}
+img {max-width: 100%;}
+a {text-decoration: none;}
+body{background-color: #f5f5f5;}
+
+/*______XX______CONTAINER______XX______*/
+.container{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+}
+
+
+/*______XX______RODAPÉ______XX______*/
+.rodape{
+    background: #343A40;
+}
+
+.social-icons a{
+    font-size: 1.5em;
+    margin-right: 3%;
+    color: rgb(20, 18, 18);
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+    
+}
+
+.social-icons a:hover {
+    color: #f5f5f5;
+}
+
+.copyright{
+    margin-top: 2%;
+    color: #f5f5f5;
+
+}

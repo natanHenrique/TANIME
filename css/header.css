@@ -1,0 +1,319 @@
+
+
+/*
+Estilos de cor do site.
+
+Fundo do site background:   #495057 .
+
+cor das letras para textos:     #FFFFFF.
+
+cor das letras do título:  #CED4DA.
+
+cor para os fundos das caixas onde os conteúdos irão estar: #343A40.
+
+cor do fundo das caixas dos conteúdos:  #6C757D e ícones. 
+
+para os fundos dos botões e da caixa dos conteúdos na vitrine: #F2F2F2.
+
+para a cor dos textos nos botões será:   #898989.
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {list-style: none;}
+img {max-width: 100%;}
+a {text-decoration: none;}
+body{background-color: #f5f5f5;}
+
+/*   BG COLORS   */
+
+.bg-black{
+    background-color: #130400;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+/*   HELPERS   */
+.radius{
+    border-radius: 10px;
+}
+
+/*   HEADER */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 2% 4%;
+    text-align: center;
+    background: #343A40;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.logo{
+    width: 56px;
+    float: left;
+    height: 56px;
+    font-size: 0;
+    background: url(../img/logoP.png) center center/56px no-repeat;
+}
+.btn-menu{
+    width: 55px;
+    height: 56px;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 56px;
+    background: #6C757D;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*   BARRA DE PRESQUISA   */
+
+.barra{
+    width: 100%;
+    float: left;
+    padding: 2% 4%;
+    text-align: center;
+    background: #343A40;
+}
+
+.barraBusca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    color: #f5f5f5;
+    padding-left: 15px;
+    background: #495057;
+    box-sizing: border-box;
+}
+.busca::placeholder{
+    color: #797979;
+}
+
+button i{
+    width: 20px;
+    height: 20px;
+    color: #f5f5f5;
+    margin-right: 20px;
+}
+
+.bg{
+    background: #495057;
+    
+}
+.categoria{
+    color: #f5f5f5;
+    margin-left: 20px;
+    padding-left: 15px;
+    background: #495057;
+    box-sizing: border-box;
+}  
+
+/*   MENU   */
+
+
+.menu{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    background-color: rgb(0,0,0,0.9);
+}
+
+.btn-close{
+    float: right;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 2% 3% 0 0;
+}
+
+.menu ul {
+    width:100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li{
+    padding: 2%;
+    
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 2em;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover{
+    border: 2px solid #f54865;
+}
+
+/*
+MEDIA TYPES
+screen: Para monitores ou dispositivos  com telas coloridas e resolução adequada.
+
+print: Para impressoras, Muito usado para dar uma versão de impressão do site.
+*/
+
+/*______XX______MOBILE FIRST______XX______*/
+
+/*__SMALL DEVICES - SMARTPHONES__*/
+@media screen and (min-width: 320px){
+
+    .logo{
+        width: 80px;
+        background: url(../img/logoP.png) center center/80px no-repeat ;
+    }
+    
+    input{
+        font-size: 13px;
+    }
+ 
+    button i{
+        width: 0;
+        height: 10px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+ 
+    .categoria{
+        font-size: 13px;
+    }
+
+}
+
+
+/*__SMALL DEVICES - SMARTPHONES__*/
+@media screen and (min-width: 480px){
+
+    .logo{
+        width: 100px;
+        background: url(../img/logoP.png) center center/100px no-repeat ;
+    }
+    
+    input{
+        font-size: 15px;
+    }
+ 
+    button i{
+        width: 0;
+        height: 10px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .bg{
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .categoria{
+        font-size: 15px;
+    }
+}
+
+/*__MEDIUM DEVICES - TABLETS & DESKTOPS__*/
+@media screen and (min-width: 960px){
+
+    .logo{
+        width: 300px;
+        background: url(../img/logoG.png) center center/300px no-repeat ;
+    }
+    input{
+        font-size: 20px;
+    }
+ 
+    button i{
+        width: 0;
+        height: 20px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .bg{
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+    .categoria{
+        font-size: 20px;
+    }
+    .buttons{
+        width:30%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/*__LARGE DEVICES - WIDE SCREENS__*/
+@media screen and (min-width: 1280px){
+
+    input{
+        font-size: 20px;
+    }
+ 
+    button i{
+        width: 0;
+        height: 20px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .bg{
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+
+    .categoria{
+        font-size: 20px;
+    }
+
+    .btn-menu{
+        display: none;                                        
+    }
+
+    .btn-close{
+        display: none;                                        
+    }
+
+    .menu{
+        width: auto;
+        height: 56px;
+        float: right;
+        font-size: 1em;
+        font-style: bold;
+        position: static;
+        line-height: 56px;
+        background: #343A40;
+        display: block !important;
+    }
+
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+
+    .menu li a{
+        padding: 15px;
+        color: #fff; 
+        font-size: 1em;
+    }
+
+    .menu li a:hover{
+        border: none;
+        color: #f54865;
+    }
+}

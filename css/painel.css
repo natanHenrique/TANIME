@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+ul {list-style: none;}
+img {max-width: 100%;}
+body{color: #f5f5f5;}
+a {text-decoration: none;}
+
+
+.containerG{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #495057;
+}
+
+.alteracao{
+    width: 100%;
+    padding: 4% 4%;
+    align-items: center;
+    background: #343A40;
+    flex-direction: column;
+}
+
+.tituloAdd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.legendaCadastrados{
+    display: flex;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.legenda-foto{
+    width: 100px;
+}
+
+.boxCad{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudoCadastrado{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-cadastrado-foto{
+    width: 100%;
+}
+
+.conteudo-cadastrado-foto img{
+    width: 80px;
+    height: 80px;
+    background-color: #f2f2f2;
+}
+
+.legenda-nome{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.legenda-categoria{
+    text-align: center;
+    margin-right: 2%;
+}
+
+.legenda-editar-excluir{
+    width: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+a{
+    color: #f5f5f5;
+}
+.btnB{
+    background: none;
+}
+/*______XX______MOBILE FIRST______XX______*/
+
+
+/*__SMALL DEVICES - SMARTPHONES__*/
+@media screen and (min-width: 320px){
+    .conteudo-cadastrado-foto{
+        width: 50px;
+        height: 30px;
+    }
+        
+    .conteudo-cadastrado-foto img{
+        width: 50px;
+        height: 30px;
+    }
+    
+    .legenda-nome{
+        font-size: 0.5em;
+    }
+
+    .legenda-categoria{
+        font-size: 0.9em;
+        margin-right: 2%;
+    }
+
+    .legenda-editar-excluir{
+        width: 60px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .tituloAdd{
+        font-size: 1em;
+    }
+
+    .legendaCadastrados{
+        font-size: 0.8em;
+    }
+}
+
+/*__SMALL DEVICES - SMARTPHONES__*/
+@media screen and (min-width: 480px){
+    
+    .conteudo-cadastrado-foto{
+        width: 80px;
+        height: 50px;
+        margin-right: 4%;
+    }
+        
+    .conteudo-cadastrado-foto img{
+        width: 80px;
+        height: 50px;
+    }
+    
+    .legenda-nome{
+        font-size: 0.9em;
+    }
+
+    .legenda-categoria{
+        margin-right: 2%;
+    }
+
+    .legenda-editar-excluir{
+        width: 60px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .tituloAdd{
+        font-size: 1.9em;
+    }
+
+    .legendaCadastrados{
+        font-size: 1em;
+    }
+
+    .btnB{
+        font-size: 1.9em;
+    }
+
+}
+
+/*__MEDIUM DEVICES - TABLETS & DESKTOPS__*/
+@media screen and (min-width: 960px){
+    .conteudo-cadastrado-foto{
+        width: 120px;
+        height: 70px;
+    }
+        
+    .conteudo-cadastrado-foto img{
+        width: 100px;
+        height: 70px;
+    }
+    
+    .legenda-nome{
+        font-size: 1em;
+    }
+
+    .tituloAdd{
+        font-size: 2.5em;
+    }
+
+    .legendaCadastrados{
+        font-size: 1.5em;
+    }
+
+    .btnB{
+        font-size: 2em;
+    }
+}
+
+/*__LARGE DEVICES - WIDE SCREENS__*/
+@media screen and (min-width: 1280px){
+    .conteudo-cadastrado-foto{
+        width: 150px;
+        height: 110px;
+        margin-right: 4%;
+    }
+        
+    .conteudo-cadastrado-foto img{
+        width: 150px;
+        height: 110px;
+    }
+
+    .tituloAdd{
+        font-size: 2.5em;
+    }
+
+    .legendaCadastrados{
+        font-size: 1.9em;
+    }
+    
+    .btnB{
+        font-size: 2.5em;
+    }
+        
+}
